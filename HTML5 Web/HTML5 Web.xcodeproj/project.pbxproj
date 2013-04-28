@@ -25,6 +25,7 @@
 		7A7B7C16172CC10600F0E6D8 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7C11172CC10600F0E6D8 /* zip.c */; };
 		7A7B7C1A172CC10C00F0E6D8 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B7C19172CC10C00F0E6D8 /* ZipArchive.mm */; };
 		7A7B7C1E172CC9A900F0E6D8 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7B7C1D172CC9A900F0E6D8 /* libz.1.2.5.dylib */; };
+		7AF2D79C172CCE7E003E8EEF /* www.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2D79B172CCE7E003E8EEF /* www.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		7A7B7C18172CC10C00F0E6D8 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
 		7A7B7C19172CC10C00F0E6D8 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
 		7A7B7C1D172CC9A900F0E6D8 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		7AF2D79B172CCE7E003E8EEF /* www.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = www.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		7A7B7BEA172CBB7C00F0E6D8 /* HTML5 Web */ = {
 			isa = PBXGroup;
 			children = (
+				7AF2D79B172CCE7E003E8EEF /* www.zip */,
 				7A7B7C21172CCBAD00F0E6D8 /* Images */,
 				7A7B7C17172CC10C00F0E6D8 /* ZipArchive */,
 				7A7B7C09172CC10600F0E6D8 /* minizip */,
@@ -222,6 +225,7 @@
 				7A7B7BFB172CBB7C00F0E6D8 /* Default-568h@2x.png in Resources */,
 				7A7B7C01172CBB7C00F0E6D8 /* WebViewController_iPhone.xib in Resources */,
 				7A7B7C08172CBB8400F0E6D8 /* html5_icon_57.png in Resources */,
+				7AF2D79C172CCE7E003E8EEF /* www.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +364,7 @@
 				7A7B7C06172CBB7C00F0E6D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
